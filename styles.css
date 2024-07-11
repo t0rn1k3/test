@@ -1,0 +1,35 @@
+:root {
+    --bgc : #343434;
+    --text : #22ff22;
+    --textSize : 25px;
+}
+body {
+    background-color: var(--bgc);
+}
+p {
+    color: var(--text);
+    font-size: var(--textSize);
+    transition: .3s;
+    filter: blur(5px);
+    cursor: pointer;
+}
+p:hover{
+    filter: blur(0);
+}
+img {
+    filter: blur(5px);
+    transition: .3s;
+    cursor: pointer;
+}
+img:hover {
+    filter: blur(0);
+}
+.par0.active {
+    color: red;
+}
+.par1.active {
+    color: blue;
+}
+.par2.active {
+    color: yellow;
+}
